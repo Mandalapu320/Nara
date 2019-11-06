@@ -22,7 +22,20 @@
     </Manifest>
   </DeploymentModelSpecificContent>
   <ControlFlowParts />
-  <Miscellaneous />
+  <Miscellaneous>
+    <ProjectItem>
+      <Name>CREATE CONFIGURATION ENTRIES.sql</Name>
+      <FullPath>CREATE CONFIGURATION ENTRIES.sql</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ReadMe.txt</Name>
+      <FullPath>ReadMe.txt</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>sp_PurgeFactTablesData.sql</Name>
+      <FullPath>sp_PurgeFactTablesData.sql</FullPath>
+    </ProjectItem>
+  </Miscellaneous>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
