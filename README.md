@@ -6,7 +6,7 @@ Please execute below scripts in order. Please note that these scripts have been 
 1.	CREATE CONFIGURATION ENTRIES.sql   (Update the desired Batch Size and Retention period before execute the script)
 a.	This script would clone BalyBi database and name it as “AdventureWorksDW2017_Archive” database.
 b.	It also creates “[dbo].[ArchiveFactTablesConfig]”, which would help to store configurations like RETENTION_PERIOD, KEY_COLUMNS etc. of each fact table. It also would add default entries to the configuration table.
-c.	It also creates “dbo.BallyArchive_Log” table under AdventureWorksDW2017 database to log entries when job executes.
+c.	It also creates “dbo.AdventureWorksDW_Archive_Log” table under AdventureWorksDW2017 database to log entries when job executes.
 d.	It also creates “[dbo].[fnSplit]” function, which would be used to stored procedure.
 2.	sp_PurgeFactTablesData.sql 
 a.	This script creates the new schema named  “ARCHIVE” under AdventureWorksDW2017 Database
