@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AdventureWorksDW Archive and Purge Solution", "AdventureWorksDW Archive and Purge Solution.dtproj", "{E3BCFEFE-E4FD-4E5C-8944-7065869E2262}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3BCFEFE-E4FD-4E5C-8944-7065869E2262}.Development|Default.ActiveCfg = Development
+		{E3BCFEFE-E4FD-4E5C-8944-7065869E2262}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9574CF4F-A51E-4D6D-87BD-F8479589A765}
+	EndGlobalSection
+EndGlobal
